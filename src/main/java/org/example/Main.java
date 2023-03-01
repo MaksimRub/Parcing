@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class Main {
     public static final String api_wildeBerries="https://statistics-api.wildberries.ru";
-    static String apiKey="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3NJRCI6IjQxYjNjZDlkLTEyMzUtNDYxZS1iMWMwLWZiZTc3ZTM4MjY0NiJ9.XAjWGSO9CG7q6nvWioOBdHFkBitQAfm15LBPyVOi5uQ";
+    static String apiKey="";
     public static void main(String[] args){
         Retrofit retrofit=new Retrofit.Builder()
                 .baseUrl(api_wildeBerries)
