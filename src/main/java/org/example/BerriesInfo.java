@@ -1,20 +1,21 @@
 package org.example;
 
 public class BerriesInfo {
-    class Berries{
-        int incomeId;
-        String number;
-        String date;
-        String lastChangeDate;
-        String supplierArticle;
-        String techSize;
-        String barcode;
-        int quantity;
-        int totalPrice;
-        String dateClose;
-        String warehouseName;
-        int nmId;
-        String status;
-    }
-    Berries[] berries;
+    String lastChangeDate;
+            String supplierArticle;
+            String techSize;
+            String barcode;
+            Integer quantity;
+            boolean isSupply;
+            boolean isRealization;
+            Integer quantityFull;
+            String warehouseName;
+            Integer nmId;
+            String subject;
+            String category;
+            String daysOnSite;
+            String brand;
+            String SCCode;
+            Integer Price;
+            Integer Discount;
 }
